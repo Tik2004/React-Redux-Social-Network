@@ -1,0 +1,33 @@
+
+.selectedbitch{
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    transition-duration: 0.4s;
+    outline:none;
+    border-width: 2px;
+}
+.notselected{
+    background-color:deepskyblue;
+    border-radius: 10px;
+    margin: 10px;
+    color:white;
+    transition-duration: 0.4s;
+    outline:none;
+    border-width: 2px;
+}
+.selectedbitch:hover{
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    transition-duration: 0.4s;
+    border-width: 2px;
+}
+.notselected:hover{
+    background-color: pink;
+    color: white;
+    outline:none;
+    border-color:white;
+    transition-duration: 0.4s;
+    border-width: 2px;
+}

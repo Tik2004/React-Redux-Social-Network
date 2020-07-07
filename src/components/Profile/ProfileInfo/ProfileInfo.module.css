@@ -1,0 +1,76 @@
+.description_block {
+    padding: 15px;
+
+}
+
+.description_block img{
+    width:100px;
+    border-style:solid;
+    border-radius:100px;
+    background-color:white;
+}
+.formsomeerror {
+    border-width: 1px;
+    border-style: solid;
+    color:white;
+    background-color: #fc3434;
+    border-color: white;
+    font-family: -apple-system, monospace;
+    padding: 4px;
+    border-radius: 10px;
+}
+.opisanie{
+    font-family: 'Baskerville Old Face';
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -1px;color: black;
+    padding-bottom: 30px;
+}
+
+.nameprofil{
+    font-family: "Britannic Bold";
+    font-size: 24px;
+    color: white;
+    font-family: "DejaVu Sans Mono";
+    transition-duration: 0.4s;
+}
+.nameprofil:hover{
+    font-family: "Britannic Bold";
+    font-size: 24px;
+    font-family: "DejaVu Sans Mono";
+    color: black;
+    transition-duration: 0.4s;
+}
+
+
+input[type="file"] {
+    display: none;
+    border: solid 1px white;
+}
+.inuts {
+    border: solid 1px white;
+    display: inline-block;
+    background-color: #ffffff;
+    outline:none;
+    border-radius: 20px;
+    color: black;
+    padding: 2px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 0px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+.inuts:hover{
+    border: solid 1px white;
+    outline:none;
+    background-image: linear-gradient(to right, red,orangered);
+    color: white;
+    border-width:2px;
+    transition-duration: 0.6s;
+}
+.contacts {
+    margin-left: 20px;
+}

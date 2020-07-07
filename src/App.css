@@ -1,0 +1,21 @@
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1400px;
+    grid-template-areas: 'h h' 'n c';
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+}
+body {
+    background-color: #191b7b;
+}
+.app-wrapper-content {
+    grid-area: c;
+    background-image: linear-gradient(to right, #ff4dff,red);
+    border-radius: 10px;
+
+}
+.lols {
+    text-align: center;
+}

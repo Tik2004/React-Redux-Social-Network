@@ -1,0 +1,124 @@
+.dialogs {
+
+
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 5px;
+}
+
+.dialogsItems {
+    padding: 15px;
+    margin:10px;
+}
+
+.dialogsItems .dialog{
+    padding: 12px;
+    margin:5px;
+    font-size:20px;
+}
+
+
+
+.dialogsItems a.active {
+    color: black;
+    font-family: "Lucida Fax";
+    border-width: 6px;
+    border-radius: 13px;
+    border-style: double;
+    border-color: #0c0c0c;
+    background-color: white;
+    text-decoration-style: dotted;
+    text-decoration: transparent;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: -7px;
+}
+
+.dialogsItems a.active:hover{
+    color: black;
+    font-family: "Lucida Fax";
+    border-width: 6px;
+    border-radius: 13px;
+    border-style: double;
+    border-color: #0c0c0c;
+    background-color: white;
+    text-decoration-style: dotted;
+    text-decoration: transparent;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: -7px;
+}
+
+.dialogsItems a{
+    color: white;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    text-decoration-style: dotted;
+    text-decoration: transparent;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: -7px;
+}
+
+.dialogsItems a:hover{
+    color: gray;
+    border-color: #53c8ff;
+    border-style: solid;
+    border-radius: 13px;
+    background-color: white;
+    text-decoration-style: dotted;
+    text-decoration: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: -16px;
+    transition-duration: 0.4s;
+    border-width: 5px;
+
+}
+
+.dialog {
+    padding:3px;
+    color:gray;
+}
+
+.messages .dialog{
+    border-style: hidden;
+    border-color: azure;
+    border-radius: 10px;
+    margin: 30px;
+    padding-right: 100px;
+    background-color: aliceblue;
+}
+
+.textingar textarea{
+    resize: none;
+    padding:10px;
+    width: 300px;
+    border: 1px solid #888;
+    margin-left: 295px;
+    overflow: hidden;
+}
+
+.buttonno button{
+    background-color: #138fe3;
+    border: solid;
+    outline:none;
+    border-radius: 1000px;
+    color: white;
+    padding: 6px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 395px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+
+}
+
+.buttonno button:hover{
+    outline:none;
+    background-color: #ee78e7;
+    color: white;
+}

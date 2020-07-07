@@ -1,0 +1,43 @@
+.formControl.error input,
+.formControl.error textarea{
+    border: solid #fc3434 1.25px;
+}
+.formControl.error span
+{   border-width: 1px;
+    border-style: solid;
+    color:white;
+    background-color: #fc3434;
+    border-color: white;
+    position: relative;
+    bottom: 1px;
+    font-family: -apple-system, sans-serif;
+    padding: 0 10px ;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.formsomeerror {
+    border-width: 1px;
+    border-style: solid;
+    color:white;
+    background-color: #fc3434;
+    border-color: white;
+    font-family: -apple-system, monospace;
+    padding: 2px;
+    border-radius: 10px;
+}
+.registerplace {
+    font-family: "Arial Unicode" ;
+    line-height: 14px;
+
+}
+.registerplace a{
+    font-family: "Comic Sans MS", italic;
+    color: #ef4e1d;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.registerplace a:hover{
+    font-family: "Comic Sans MS", italic;
+    color: #5cef1d;
+    text-decoration: none;
+}

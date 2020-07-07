@@ -1,0 +1,56 @@
+.postsBlock {
+    padding: 15px;
+}
+.textingar textarea {
+    resize: none;
+    outline: none;
+    -moz-appearance: none;
+    border-radius: 10px;
+    border: 1px solid #5f5f5f;
+
+
+}
+.baton button{
+    background-color: #ffffff;
+    border: solid;
+    outline:none;
+    border-radius: 20px;
+    color: black;
+    padding: 2px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-width:1px;
+}
+
+.baton button:hover{
+    outline:none;
+    background-color: #138fe3;
+    color: white;
+    border-width:1px;
+}
+.mypostik {
+    font-style: oblique;
+    font-family: "Baskerville Old Face", solid;
+    font-size: 20px;
+}
+.posts{
+    margin-top: 10px;
+    
+    }
+.posts img{
+    border-style:solid;
+    margin-right: 10px;
+    border-color: gray;
+}
+.posts img:hover{
+    border-style:solid;
+    margin-right: 10px;
+    border-color: #3263f8;
+    transition-duration: 0.5s;
+}
+
