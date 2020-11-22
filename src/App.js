@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import error404 from './assets/images/error404.png';
 import Nav from './components/Navbar/Nav';
@@ -57,7 +57,7 @@ const mapStateToProps = (state) => ({
 })
 let AppContainer = compose(
     withRouter,
-    connect(mapStateToProps,{initializeApp}))(App)
+    connect(mapStateToProps, { initializeApp }))(App)
 
 let CoolApp = (props) => {
     return <BrowserRouter>
