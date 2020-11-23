@@ -62,7 +62,7 @@ let AppContainer = compose(
 let CoolApp = (props) => {
     return <BrowserRouter>
         <Provider store ={store}>
-            <AppContainer />
+            <AppContainer/>
         </Provider>
     </BrowserRouter>
 }
